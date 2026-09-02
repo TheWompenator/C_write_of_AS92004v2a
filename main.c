@@ -35,10 +35,10 @@ int main(void) {
     printf("Hello! Welcome to the NZ Trivia Quiz.\n\nPlease enter your name: ");
     fgets(name, sizeof(name), stdin);
     name[strcspn(name, "\n")] = '\0';
-    printf("Hello %s!\nWelcome to the NZ Trivia Quiz, In this Quiz you will be prompted with a question and then 4 answers labled A, B, C, or D. Simply type in the letter corrosponding to the correct answer and press enter.\nYou get one point for every question you get right. Good luck!", name);
+    printf("Hello %s!\nWelcome to the NZ Trivia Quiz, In this Quiz you will be prompted with a question and then 4 answers labled A, B, C, or D. Simply type in the letter corrosponding to the correct answer and press enter.\nYou get one point for every question you get right. Good luck!\n\n", name);
 
     for (int i = 0; i < sizeof(ANSWERS) / sizeof(ANSWERS[0]); i++) {
-        printf("%s\n", QUESTIONS[i]);
+        printf("Q%d) %s\n", i+1, QUESTIONS[i]);
         char givenAnswer = getValidCharInput("ABCD");
         if (givenAnswer == ANSWERS[i])
         {
