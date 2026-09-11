@@ -1,0 +1,13 @@
+{
+  "title": "AS9 Defaults",
+  "description": "An empty default AS9 data file.",
+  "version": "1.0.0",
+  "author": "Isaiah E",
+  "quizzes": {
+    "quiz": {
+      "id": 0,
+      "questions": [
+      ]
+    }
+  }
+}

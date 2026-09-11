@@ -1,0 +1,119 @@
+{
+  "title": "NZ Trivia Quiz",
+  "description": "A simple set of quizzes about NZ Trivia!",
+  "version": "1.0.0",
+  "author": "Isaiah E",
+
+  "quizzes": {
+    "quiz_a": {
+      "id": 0,
+      "questions": [
+        {
+          "question": "What is the capital of New Zealand?",
+          "answers": [
+            "Auckland",
+            "Wellington",
+            "Christchurch",
+            "Hamilton"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Which city is known as 'The Garden City'?",
+          "answers": [
+            "Wellington",
+            "Christchurch",
+            "Paeroa",
+            "Auckland"
+          ],
+          "correct": 1
+        },
+        {
+          "question": "Where did L&P soda originally come from?",
+          "answers": [
+            "Putaruru",
+            "Waihi",
+            "Paeroa",
+            "Auckland"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "In what month is Matariki celebrated?",
+          "answers": [
+            "April",
+            "May",
+            "June",
+            "July"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "What colour is Kakariki?",
+          "answers": [
+            "Green",
+            "Blue",
+            "Black",
+            "Grey"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    "quiz_b": {
+      "id": 1,
+      "questions": [
+        {
+          "question": "What is the name of the stretch of water that separates the North and South islands?",
+          "answers": [
+            "Wellington Strait",
+            "Tasman Channel",
+            "Cook Strait",
+            "Kaikoura Strait"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "Which New Zealand city houses the Beehive?",
+          "answers": [
+            "Wellington",
+            "Christchurch",
+            "Paeroa",
+            "Auckland"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Which town has a giant carrot as a landmark?",
+          "answers": [
+            "Taihape",
+            "Waihi",
+            "Paeroa",
+            "Ohakune"
+          ],
+          "correct": 3
+        },
+        {
+          "question": "Where is 90 mile beach?",
+          "answers": [
+            "Top of the North Island",
+            "Bottom of the South Island",
+            "Bottom of the North Island",
+            "Top of the South Island"
+          ],
+          "correct": 0
+        },
+        {
+          "question": "When was the treaty of Waitangi signed?",
+          "answers": [
+            "1815",
+            "1840",
+            "1855",
+            "1875"
+          ],
+          "correct": 1
+        }
+      ]
+    }
+  }
+}
