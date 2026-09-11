@@ -12,12 +12,7 @@ const char QUESTIONS_A[5][200] = {
     "What colour is Kakariki?\nA) Green B) Blue\nC) Black D) Grey"
 };
 
-const char ANSWERS_A[5] = {
-    'B',
-    'B',
-    'C',
-    'C',
-    'A'
+const char ANSWERS_A[5] = "BBCCA";
 };
 
 const char QUESTIONS_B[5][200] = {
@@ -27,19 +22,13 @@ const char QUESTIONS_B[5][200] = {
     "When was the treaty of Waitangi signed?\nA) 1815 B) 1840\nC) 1855 D) 1875"
 };
 
-const char ANSWERS_B[5] = {
-    'C',
-    'A',
-    'D',
-    'A',
-    'B'
-};
+const char ANSWERS_B[5] = "CADAB";
 
 char getValidCharInput(char validChars[]) {
     for (;;) {
         char inputChar[100];
         fgets(inputChar, sizeof(inputChar), stdin);
-        if (inputChar[0] != '\n' && strchr(validChars, inputChar[0]) != NULL) {
+        if (inputChar[0] != '\n' && strchr(validChars, inputChar[0]) != NULL && inputChar[1] == ) {
             return inputChar[0];
         }
         printf("Invalid input. Please try again.\n");
