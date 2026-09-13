@@ -6,7 +6,7 @@ function ASINJECT_init()
 end
 
 function ASINJECT_begin_quiz()
-    AS_print("Let's begin!")
+    print("Let's begin!")
     return 0
 end
 
